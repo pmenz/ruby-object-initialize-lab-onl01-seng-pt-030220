@@ -10,7 +10,7 @@ class Dog
   
   def name=(breed)
     @name = breed
-    if @breed!==anything then
+    if @breed.empty? then
       puts "Mutt"
     end
   end
