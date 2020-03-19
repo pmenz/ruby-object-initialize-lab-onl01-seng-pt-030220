@@ -1,13 +1,22 @@
 class Dog 
+  
+  attr_accessor:name
+  
   def initialize(name, breed)
     @name =name 
     @breed =breed
   end
-  attr_accessor:name
-  attr_accessor:breed
   
-  if :breed =="" then
-    put "Mutt"
+  
+  def name=(breed)
+    @name = breed
+    if @breed!==anything then
+      puts "Mutt"
+    end
+  end
+  
+  def breed
+    @breed
   end
   
 end
