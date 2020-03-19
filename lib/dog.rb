@@ -6,7 +6,7 @@ class Dog
   attr_accessor:name
   attr_accessor:breed
   
-  if :breed ==empty then
+  if :breed =="" then
     put "Mutt"
   end
   
